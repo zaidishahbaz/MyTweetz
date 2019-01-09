@@ -14,3 +14,5 @@
            
           
  _________________________________________________________________________________________________________________________________________ 
+Since Laravel, by default, ignores the .env - this is very much intended, as your different environments should technically have, well, different env files. It also helps you from not submitting credentials (such as for your database) into version control.
+So you can go ahead and add a .env file in your local machine .
